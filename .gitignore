@@ -1,0 +1,25 @@
+# --- Secrets: never commit these ---
+.env
+**/google-services.json
+**/GoogleService-Info.plist
+*firebase-adminsdk*.json
+firebase-service-account*.json
+
+# --- Java / Maven build output ---
+target/
+*.class
+*.log
+
+# --- Receipt photos uploaded at run time (UC5) ---
+uploads/
+
+# --- IDE and OS files ---
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# --- Personal Claude Code settings ---
+.claude/settings.local.json
+
+# Flutter adds its own .gitignore inside mobile/ when the project is created.

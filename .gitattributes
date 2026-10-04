@@ -1,0 +1,10 @@
+# Keep line endings consistent between Windows and Linux.
+* text=auto
+
+# Shell scripts must use LF line endings, or they fail on Linux and inside Docker.
+*.sh text eol=lf
+mvnw text eol=lf
+
+# Windows scripts keep CRLF line endings.
+*.cmd text eol=crlf
+*.bat text eol=crlf
